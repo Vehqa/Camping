@@ -83,6 +83,10 @@ background-color: white;
         display: flex;
         flex-direction: column; 
     }
+
+    .footer__separation {
+        width: 500px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -96,6 +100,10 @@ background-color: white;
 
     .footer__quote {
         font-size: 12px;
+    }
+
+    .footer__separation {
+        width: 200px;
     }
 
 }
