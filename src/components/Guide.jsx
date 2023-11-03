@@ -57,6 +57,18 @@ const StyledGuide = styled.div `
     flex-direction: column;
     background: linear-gradient(to bottom, #0B0E16 70%, white 30%);
 }
+
+@media (max-width: 600px) {
+    .guide__img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .guide__card {
+        width: 400px;
+        height: 300px;
+    }
+}
 `
 ;
 

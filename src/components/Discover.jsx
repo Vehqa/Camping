@@ -66,6 +66,20 @@ const StyledDiscover = styled.div `
         display : inline-block;
     }
 }
+
+@media (max-width: 550px) {
+    .discover__img {
+        width: 350px;
+        height: 350px;
+    }
+    .discover__text-title {
+        font-size: 18px;
+    }
+
+    .discover__text-para{
+        font-size:12px;
+    }
+}
 `
 ;
 

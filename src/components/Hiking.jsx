@@ -18,7 +18,6 @@ const StyledHiking = styled.div`
         justify-content:center;
         align-items:center;
         gap: 100px;
-
     }
 
     .hiking__icon {
@@ -72,13 +71,22 @@ const StyledHiking = styled.div`
     }
 
 @media (max-width: 1050px) {
+    padding-left: 0;
     .hiking {
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 
     .activities {
         width: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .hiking__img {
+        max-width: 350px;
+        max-height: 350px;
     }
 }
 `

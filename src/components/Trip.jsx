@@ -59,13 +59,22 @@ const StyledTrip = styled.div`
     }
 
 @media (max-width: 1050px) {
+    padding-left: 0;
     .trip {
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 
     .activities {
         width: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .trip__img {
+        max-width: 350px;
+        max-height: 350px;
     }
 }
 `

@@ -84,6 +84,22 @@ background-color: white;
         flex-direction: column; 
     }
 }
+
+@media (max-width: 650px) {
+    .footer__title {
+        font-size: 22px;
+    }
+
+    .footer__para {
+        font-size: 10px;
+    }
+
+    .footer__quote {
+        font-size: 12px;
+    }
+
+}
+
 `
 ;
 

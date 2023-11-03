@@ -20,12 +20,16 @@ const  StyledHeader = styled.div`
         display: none;
     }
 }
+
+@media (max-width: 550px) {
+    display: none;
+}
 `;
 
 function Header(){
     return(
         <StyledHeader>
-            <a href='/'>Camping Adventure</a>
+            <a className='header__title' href='/'>Camping Adventure</a>
             <div className='header__link'>
                 <a href='/'>A propos</a>
                 <a href='/'>Evenement</a>

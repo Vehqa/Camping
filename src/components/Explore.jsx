@@ -53,6 +53,20 @@ const StyledExplore = styled.div `
     height: auto;
     padding: var(--default-sizing);
 }
+
+@media (max-width: 550px) {
+    .explore__img {
+        width: 350px;
+        height: 350px;
+    }
+    .explore__text-title {
+        font-size: 18px;
+    }
+
+    .explore__text-para{
+        font-size:12px;
+    }
+}
 `
 ;
 
