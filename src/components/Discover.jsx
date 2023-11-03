@@ -77,7 +77,7 @@ function Discover () {
                 <h4 className='discover__text-title'>Decouvrez une magnifique faune sauvage</h4>
                 <p className='discover__text-para'> Explorez les charmes du camping, où chaque jour est une invitation à l'aventure au cœur de la nature. Réveillez-vous au son mélodieux des oiseaux, arpentez des sentiers pittoresques, plongez dans des lacs d'une clarté exceptionnelle, et concluez vos journées sous un ciel étoilé, confortablement installés autour d'un feu de camp accueillant. C'est l'occasion rêvée pour vous détendre, vous déconnecter de la routine quotidienne, et vous émerveiller devant la faune et la flore environnantes. Rejoignez-nous pour une expérience de camping unique qui tissera des souvenirs impérissables.</p>
             </div>
-            <img className='discover__img'src={animal} data-aos="fade-left"></img>
+            <img className='discover__img'src={animal} alt='Photo grenouille' data-aos="fade-left"></img>
         </StyledDiscover>
     )
 }

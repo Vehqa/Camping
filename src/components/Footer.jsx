@@ -99,7 +99,7 @@ function Footer () {
             </p>
             <hr className='footer__separation' data-aos="zoom-in"></hr>
             <p className='footer__quote' data-aos="zoom-in">Embrassez l'appel de la nature et laissez le voyage se dérouler.</p>
-            <img className='footer__img' src={footer}></img>
+            <img className='footer__img' src={footer} alt='montagne'></img>
             <div className='footer__infos'>
                 <a href='/' className='footer__infos-home'>Camping Adventure</a>
                 <ul className='footer__infos-list'>

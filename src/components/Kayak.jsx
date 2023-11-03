@@ -87,7 +87,7 @@ function Kayak () {
                     <p className='activities__stats'> 6,8k Views · 2,1k Likes</p>
                     <a href='/' className='activities__button'> Details </a>
                 </div>
-                <img  className='kayak__img' src={kayak}></img>
+                <img  className='kayak__img' alt='Kayak' src={kayak}></img>
             </div>
         </StyledKayak>
     )

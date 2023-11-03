@@ -78,7 +78,7 @@ function Trip () {
     return (
         <StyledTrip>
             <div className='trip' data-aos="flip-up">
-            <img  className='trip__img' src={trip}></img>
+            <img  className='trip__img' src={trip} alt='van trip'></img>
                 <div className='activities'>
                     <h6 className='activities__title'>Trip en van</h6>
                     <p className='activities__para'>Partez pour une aventure inoubliable en van,

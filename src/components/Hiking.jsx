@@ -90,10 +90,10 @@ function Hiking () {
         });
     return (
         <StyledHiking>
-                <img className='hiking__icon' src={icon}></img>
+                <img className='hiking__icon' alt='icone randonneur' src={icon}></img>
                 <h4 className='hiking__title'>Les différentes activités:</h4>
             <div className='hiking' data-aos="flip-up">
-                <img  className='hiking__img' src={hiking}></img>
+                <img  className='hiking__img' alt='randonneurs' src={hiking}></img>
                 <div className='activities'>
                     <h6 className='activities__title'>Groupe de randonneur</h6>
                     <p className='activities__para'>Nos guides experts garantissent votre sécurité tout en partageant leur savoir avec vous.

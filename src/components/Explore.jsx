@@ -62,7 +62,7 @@ function Explore(){
         });
     return (
         <StyledExplore>
-            <img className='explore__img'src={map} data-aos="fade-right"></img>
+            <img className='explore__img'src={map} alt='carte' data-aos="fade-right"></img>
             <div className='explore__text' data-aos="fade-left">
                 <h4 className='explore__text-title'>Explorer des emplacements de camping uniques.</h4>
                 <p className='explore__text-para'>

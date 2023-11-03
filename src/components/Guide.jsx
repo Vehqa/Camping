@@ -66,7 +66,7 @@ function Guide () {
         });
     return (
         <StyledGuide>
-            <img src={guide} className='guide__img' data-aos="slide-up"></img>
+            <img src={guide} className='guide__img' alt='Guide touristique' data-aos="slide-up"></img>
             <div className='guide__card' data-aos="slide-up">
                 <p className='guide__card-p'>" Rejoignez-nous dans une aventure exceptionnelle qui vous garantit une immersion totale 
                     dans un cadre idyllique. Cette expérience unique vous laissera imprégné d'inspiration,
