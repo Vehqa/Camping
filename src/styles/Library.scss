@@ -1,5 +1,15 @@
 :root {
-    --bgColor : red;
+    //Colors
+    --bgColor : #0B0E16;
+    --primaryColor : #171E2F;
+    --grey : #424141;
+    //Sizing
+    --default-sizing : 40px;
+    --s-sizing: 20px;
+    --m-sizing: 30px;
+    --l-sizing: 50px;
+    --xl-sizing: 70px;
+    --xxxl-sizing: 200px;
 }
 
 *{
@@ -9,12 +19,8 @@
 }
 
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    background-color: black;
+    background-color: var(--bgColor);
     font-family: 'Neue Montreal';
     color: white;
     overflow-x: hidden;
@@ -49,8 +55,8 @@ h3 {
 
 h4 {
     font-family: 'Gallery Modern';
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 28px;
+    font-weight: 200;
     text-transform: uppercase;
     margin: 0;
 }
@@ -62,8 +68,28 @@ a {
     font-size: 12px;
 }
 
+ul, li {
+    list-style: none;
+}
+
 p {
     font-size: 14px;
     line-height: 1.6;
     opacity: 0.8;
+}
+
+/* Première police : Krona */
+@font-face {
+    font-family: 'Krona';
+    src: url('../fonts/KronaOne-Regular.ttf') format('truetype');
+  }
+  
+  /* Deuxième police : Playfair */
+  @font-face {
+    font-family: 'Playfair';
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  }
+
+section{
+    padding: var(--default-sizing);
 }
