@@ -73,8 +73,12 @@ const StyledTrip = styled.div`
 
 @media (max-width: 550px) {
     .trip__img {
-        max-width: 350px;
-        max-height: 350px;
+        width: auto;
+        height: auto;
+    }
+
+    .trip__title {
+        font-size: 18px;
     }
 }
 `

@@ -69,6 +69,22 @@ const StyledGuide = styled.div `
         height: 300px;
     }
 }
+
+@media (max-width: 550px) {
+    .guide__img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .guide__card {
+        width: 400px;
+        height: auto;
+        &-p {
+            font-size: 12px;
+        padding: 0;
+        }
+    }
+}
 `
 ;
 

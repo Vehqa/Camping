@@ -73,8 +73,12 @@ const StyledKayak = styled.div`
 
 @media (max-width: 550px) {
     .kayak__img {
-        max-width: 350px;
-        max-height: 350px;
+        width: auto;
+        height: auto;
+    }
+
+    .kayak__title {
+        font-size: 18px;
     }
 }
 `

@@ -92,10 +92,12 @@ background-color: white;
 @media (max-width: 650px) {
     .footer__title {
         font-size: 22px;
+        text-align: center;
     }
 
     .footer__para {
         font-size: 10px;
+        width: auto;
     }
 
     .footer__quote {

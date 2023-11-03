@@ -63,6 +63,11 @@ const StyledExplore = styled.div `
         font-size: 18px;
     }
 
+    .explore__text {
+        width: 350px;
+        height: 350px;
+    }
+
     .explore__text-para{
         font-size:12px;
     }

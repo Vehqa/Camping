@@ -79,6 +79,11 @@ const StyledDiscover = styled.div `
     .discover__text-para{
         font-size:12px;
     }
+
+    .discover__text {
+        width: 350px;
+        height: 350px;
+    }
 }
 `
 ;
