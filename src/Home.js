@@ -1,8 +1,7 @@
 import './styles/App.scss';
 import styled from 'styled-components';
 import background from './assets/images/hero.png'
-import React, { useEffect } from 'react';
-import { useParallax } from 'react-scroll-parallax';
+import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from './components/Header';

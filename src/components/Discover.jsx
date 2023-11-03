@@ -70,6 +70,9 @@ const StyledDiscover = styled.div `
 ;
 
 function Discover () {
+    AOS.init({
+        duration: 1500,
+    });
     return (
         <StyledDiscover>
             <hr className='separation'></hr>
